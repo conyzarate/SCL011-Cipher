@@ -23,6 +23,7 @@ document.getElementById("dicipher").addEventListener("click", () => {
        
     });
 
+    
 document.getElementById("$offset").addEventListener("click", () => {
         document.getElementById("secondPage").style.display= "block";
         document.getElementById("userOff").style.display="none";
