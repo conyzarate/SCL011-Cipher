@@ -1,15 +1,51 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
+
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <meta charset="UTF-8">
+    <title>"Abogados Penales"</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+   </head>
+
+   <body class="body">
+    
+    <div id="userOff">
+
+    <p id="inicio">
+     <image src="abogados-penales.png"></image>
+      <p> Acá debes ingresar la clave que te dio tu abogado, recuerda que con esta clave te 
+        identificas por lo que si ingresas otra no servirá el texto ingresado. </p>
+    
+
+    <div id="desplazamiento">
+      
+      <p><textarea id="offset" placeholder="Clave?" cols= "15" rows="1"></textarea></p>
+      <button id="$offset" type="button" class="ingresar"> Ingresar </button>
+      
     </div>
-    <script src="cipher.js"></script>
+
+    <div id="secondPage">
+      <!-- <div id="cajas"> -->
+          <p><textarea id="texto" cols="62" rows="20" placeholder="Escribe tu texto aquí"></textarea></p>
+          <p><textarea id="result" cols="62" rows="20" placeholder="Acá se verá tu resultado"></textarea></p>
+     <!-- </div> -->
+     
+    <div id="ccipher">
+      <button id="cipher" type="button">Cifrar</button> <button id="dicipher" type="button">Descifrar</button>
+      </div>
+
+      <button id="home" type="button">Volver</button>
+    
+    </div>
+
     <script src="index.js"></script>
-  </body>
+    <script src="cipher.js"></script>
+
+
+</p></div>
+   
+   </body>
+
+
+
 </html>
